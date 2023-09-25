@@ -1,10 +1,10 @@
 {
-  "name": "react-cf-turnstile",
+  "name": "react-cf-turnstile-jk",
   "version": "1.0.0",
   "description": "A React library for Cloudflare Turnstile (https://www.cloudflare.com/en-gb/products/turnstile/)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/ben754444/react-cf-turnstile",
+  "repository": "https://github.com/staticjax/react-cf-turnstile-jk",
   "scripts": {
     "build": "tsc",
     "pre-pub": "npm run build"
@@ -17,5 +17,8 @@
   },
   "devDependencies": {
     "@types/react": "^18.0.21"
+  },
+  "dependencies": {
+    "typescript": "^5.2.2"
   }
 }
